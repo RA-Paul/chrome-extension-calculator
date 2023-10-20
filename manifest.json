@@ -1,0 +1,38 @@
+{
+
+    // 基本資料區(必要) https://developer.chrome.com/docs/extensions/mv3/manifest/
+    // 使用的manifest版本
+    "manifest_version": 3,      
+    // 擴展名稱
+    "name": "計算機",
+    // 擴展版本
+    "version": "1.0",
+
+    // 基本資料區(選填)
+    // 描述
+    "description": "教學使用",
+    // 設定右上角圖示，以及點擊後行為
+    "action": {
+      "default_icon": {                
+        "16": "images/icon16.png",     
+        "24": "images/icon24.png",     
+        "32": "images/icon32.png",     
+        "48": "images/icon48.png",     
+        "64": "images/icon64.png"      
+      },
+      // 滑鼠移至擴充時會顯示
+      "default_title": "滑鼠移至擴充時會顯示!" ,
+      // 左鍵點擊後會跳出的彈跳視窗
+      "default_popup": "popup.html" 
+    },
+    // 圖示
+    "icons": {                
+        "16": "images/icon16.png",     
+        "24": "images/icon24.png",     
+        "32": "images/icon32.png",     
+        "48": "images/icon48.png",     
+        "64": "images/icon64.png"      
+    },
+    // 作者資訊
+    "author": "test@test.com"
+}
